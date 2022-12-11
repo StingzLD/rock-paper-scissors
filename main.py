@@ -9,8 +9,8 @@ if player < 0 or player > 2:
 else:
   ai = random.randint(0,2)
   
-  print(f"Player:\n{choices[player]}")
-  print(f"AI:\n{choices[ai]}")
+  print(f"\nPlayer:\n{choices[player]}")
+  print(f"\nAI:\n{choices[ai]}\n")
   
   if player == ai:
       print("It's a draw!")
